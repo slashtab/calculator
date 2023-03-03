@@ -1,0 +1,73 @@
+body {
+    background-image: url("images/background.jpg");
+    width: viewport;
+}
+
+.main-frame {
+    margin: 150px 40%;
+    padding: 0px 8px 0px 8px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 357px;
+    border: solid;
+    border-color: #95BDFF;
+    border-radius: 10%;
+    align-content: center;
+    background-color: #ECF2FF;
+}
+
+.display {
+    margin: 27px 1px 15px 1px;
+    width: 238px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    outline: 1px #95BDFF solid;
+    background-color: #E9E8E8;
+    text-align: right;
+    justify-content: end;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.top, .down {
+    font-size: 35px;
+    color: #2B3467;
+}
+
+.key {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: #95BDFF;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    color: #ECF2FF;
+    font-weight: bold;
+}
+
+.zero {
+    display: flex;
+    gap: 19px;
+}
+.first-row, .second-row, .third-row, .fourth-row{
+    margin-bottom: 10px;
+}
+
+.equal {
+    padding-left: 57px;
+    padding-right: 50px;
+}
+
+.ac {
+    padding: 10px 15px 10px 15px;
+}
+
+.btn:hover {
+  box-shadow: 0px 15px 20px #95BDFF;
+  transform: translateY(-1px);
+}
